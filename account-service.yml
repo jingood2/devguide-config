@@ -1,1 +1,26 @@
-greeting: "Hello"
+devguide:
+  greeting: "Default Server Greeting"
+  
+---
+
+spring:
+  profiles: stage
+  
+devguide:
+  greeting: "Stage Server Greeting"
+  
+---
+
+spring:
+  profiles: dev
+  
+devguide:
+  greeting: "Dev Server Greeting"
+  
+---
+
+spring:
+  profiles: local
+  
+devguide:
+  greeting: "Local Server Greeting"
